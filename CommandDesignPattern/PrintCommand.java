@@ -12,4 +12,4 @@ public class PrintCommand implements Command{
         doc.print();
     }
 }
-}
+
