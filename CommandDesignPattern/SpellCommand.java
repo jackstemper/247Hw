@@ -7,6 +7,7 @@ public class SpellCommand implements Command {
     public SpellCommand(Document doc) {
         this.doc = doc;
     }
+    //Override to execute spell
     @Override
     public void execute() {
         doc.spell();
