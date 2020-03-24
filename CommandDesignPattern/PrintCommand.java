@@ -2,7 +2,7 @@ public class PrintCommand implements Command{
 
     private Document doc;
 
-    public LoadCommand(Document doc){
+    public PrintCommand(Document doc){
         this.doc = doc;
 
     }
