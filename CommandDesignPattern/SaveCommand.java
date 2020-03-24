@@ -1,4 +1,4 @@
-public class saveCommand implements Command {
+public class SaveCommand implements Command {
   
     private Document doc;
   
