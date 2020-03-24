@@ -7,6 +7,7 @@ public class PrintCommand implements Command {
     public PrintCommand(Document doc) {
         this.doc = doc;
     }
+    //Override to execute print
     @Override
     public void execute() {
         doc.print();
