@@ -2,13 +2,13 @@
  * LoadCommand Class : implements Command interface and calls function 
  * necessary to execute LoadCommand
  */
-public class LoadCommand implements Command{
+public class LoadCommand implements Command {
 	private Document doc;
-    public LoadCommand(Document doc){
+    public LoadCommand(Document doc) {
         this.doc = doc;
     }
     @Override
-    public void execute(){
+    public void execute() {
         doc.load();
     }
 }
