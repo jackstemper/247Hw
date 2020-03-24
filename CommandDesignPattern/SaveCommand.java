@@ -7,6 +7,7 @@ public class SaveCommand implements Command {
     public SaveCommand(Document doc) {
         this.doc = doc;
     } 
+    //Override to execute save
     @Override
     public void execute() {
         doc.save();
