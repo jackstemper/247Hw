@@ -2,7 +2,7 @@
 
 public class Document{
     private String name;
-    public Document(){
+    public Document(String name){
         System.out.println("Document named " + name + " is created");
     }
 
