@@ -8,7 +8,7 @@ public class PrintCommand implements Command{
         this.doc = doc;
     }
     @Override
-    public void execute(){
+    public void execute() {
         doc.print();
     }
 }
