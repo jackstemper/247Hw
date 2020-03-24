@@ -1,6 +1,6 @@
 
 
-public class Document {
+public class Document{
     private String name;
     public Document(){
         System.out.println("Document named " + name + " is created");
